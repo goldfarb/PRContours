@@ -4,12 +4,12 @@ import sys, string, os, arcgisscripting
 # Create the Geoprocessor object
 gp = arcgisscripting.create()
 
-# Load required toolboxes...
+# Load toolboxes
 gp.AddToolbox("C:/Program Files/ArcGIS/ArcToolbox/Toolboxes/Conversion Tools.tbx")
 gp.AddToolbox("C:/Program Files/ArcGIS/ArcToolbox/Toolboxes/Data Management Tools.tbx")
 
 
-# Local variables...
+#  variables
 #States = "States"
 #States2 = "States"
 pytry = "C:\\CSPT Studies\\pytry"
